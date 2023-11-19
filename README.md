@@ -38,6 +38,8 @@ annotated_prompt = Listen()
 pacman -S espeak-ng
 ```
 
+Speech synthesis runs at 400x realtime on CPU.
+
 ## Install whisperx (speech recognition)
 
 ```
@@ -53,6 +55,8 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+Speech recognition runs at 0.4x realtime on CPU, 60x realtime on GPU.
+
 ## Install llama.cpp (chat, translation)
 
 ```
@@ -63,6 +67,8 @@ python -m venv venv
 pip install -r requirements.txt
 wget --directory-prefix models -c https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf
 ```
+
+llama.cpp runs its `7b-chat` model at 0.05x - 0.5x realtime (3-30 wpm) on GPU.
 
 ## Install Stable Diffusion WebUI (images)
 
