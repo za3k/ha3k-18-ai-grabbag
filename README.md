@@ -53,7 +53,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## Install llama.cpp
+## Install llama.cpp (chat, translation)
 
 ```
 git clone https://github.com/ggerganov/llama.cpp
@@ -63,3 +63,7 @@ python -m venv venv
 pip install -r requirements.txt
 wget --directory-prefix models -c https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf
 ```
+
+## Install Stable Diffusion WebUI (images)
+
+(not done)
