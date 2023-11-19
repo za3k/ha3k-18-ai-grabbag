@@ -2,8 +2,8 @@ This was my attempt to catch up on the 2022-2023 AI tools which have come out re
 
 If you install CUDA, all of the below will run significantly faster.
 
-[ ] Draw() function for library using StableDiffusion (return PIL object)
-[ ] Translate() function for translation
+- [ ] Draw() function for library using StableDiffusion (return PIL object, or file path)
+- [ ] Translate() function for translation
 
 My goal is to write a python library, so that I can write commands like (or the equivalent with async/await):
 
